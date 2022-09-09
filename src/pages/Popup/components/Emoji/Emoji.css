@@ -1,0 +1,34 @@
+.icon {
+    width: 100%;
+    height: 100%;
+}
+
+.icon_wrapper {
+    cursor: pointer;
+    margin: 1px;
+}
+
+.icon_wrapper.hover:hover {
+    background-color: #E5E7E8;
+    border-radius: 3px;
+}
+
+.icon_wrapper.small {
+    padding: 5px 5px 1px 1px;
+    width: 30px;
+    height: 30px;
+}
+
+.icon_wrapper.normal {
+    width: 42px;
+    height: 42px;
+    padding: 7px 0 0 3px;
+
+    margin-right: 3px;
+}
+
+.icon_wrapper.large {
+    width: 54px;
+    height: 54px;
+    padding: 7px;
+}

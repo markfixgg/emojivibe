@@ -1,0 +1,335 @@
+@import "../../assets/sprites/joypixels-sprite-24.min.css";
+@import "../../assets/sprites/joypixels-sprite-32.min.css";
+/*@import "../../assets/sprites/joypixels-sprite-40.min.css";*/
+
+
+@font-face {
+  font-family: QanelasSoft;
+  src: url('../../assets/fonts/pt_sans-web-regular-webfont.eot');
+  src: url('../../assets/fonts/pt_sans-web-regular-webfont.eot?#iefix') format('embedded-opentype'), url('../../assets/fonts/pt_sans-web-regular-webfont.woff2') format('woff2'), url('../../assets/fonts/pt_sans-web-regular-webfont.woff') format('woff'), url('../../assets/fonts/pt_sans-web-regular-webfont.ttf') format('truetype'), url('../../assets/fonts/pt_sans-web-regular-webfont.svg') format('svg');
+  font-weight: 500;
+  font-style: normal;
+}
+@font-face {
+  font-family: QanelasSoft;
+  src: url('../../assets/fonts/opensans-semibold-webfont.eot');
+  src: url('../../assets/fonts/opensans-semibold-webfont.eot?#iefix') format('embedded-opentype'), url('../../assets/fonts/opensans-semibold-webfont.woff2') format('woff2'), url('../../assets/fonts/opensans-semibold-webfont.woff') format('woff'), url('../../assets/fonts/opensans-semibold-webfont.ttf') format('truetype'), url('../../assets/fonts/opensans-semibold-webfont.svg') format('svg');
+}
+@font-face {
+  font-family: QanelasSoft;
+  src: url('../../assets/fonts/opensans-regular-webfont.eot');
+  src: url('../../assets/fonts/opensans-regular-webfont.eot?#iefix') format('embedded-opentype'), url('../../assets/fonts/opensans-regular-webfont.woff2') format('woff2'), url('../../assets/fonts/opensans-regular-webfont.woff') format('woff'), url('../../assets/fonts/opensans-regular-webfont.ttf') format('truetype'), url('../../assets/fonts/opensans-regular-webfont.svg') format('svg');
+}
+@font-face {
+  font-family: "QanelasSoft";
+  src: url("../../assets/fonts/QanelasSoft/QanelasSoft-Black.woff") format('woff');
+  font-weight: 900;
+}
+@font-face {
+  font-family: "QanelasSoft";
+  src: url("../../assets/fonts/QanelasSoft/QanelasSoft-Black.woff") format('woff');
+  font-weight: 900;
+  font-style: italic;
+}
+@font-face {
+  font-family: "QanelasSoft";
+  src: url("../../assets/fonts/QanelasSoft/QanelasSoft-ExtraBold.woff") format('woff');
+  font-weight: 800;
+}
+@font-face {
+  font-family: "QanelasSoft";
+  src: url("../../assets/fonts/QanelasSoft/QanelasSoft-ExtraBoldItalic.woff") format('woff');
+  font-weight: 800;
+  font-style: italic;
+}
+@font-face {
+  font-family: "QanelasSoft";
+  src: url("../../assets/fonts/QanelasSoft/QanelasSoft-Bold.woff") format('woff');
+  font-weight: 700;
+}
+@font-face {
+  font-family: "QanelasSoft";
+  src: url("../../assets/fonts/QanelasSoft/QanelasSoft-BoldItalic.woff") format('woff');
+  font-weight: 700;
+  font-style: italic;
+}
+@font-face {
+  font-family: "QanelasSoft";
+  src: url("../../assets/fonts/QanelasSoft/QanelasSoft-SemiBold.woff") format('woff');
+  font-weight: 600;
+}
+@font-face {
+  font-family: "QanelasSoft";
+  src: url("../../assets/fonts/QanelasSoft/QanelasSoft-SemiBoldItalic.woff") format('woff');
+  font-weight: 600;
+  font-style: italic;
+}
+@font-face {
+  font-family: "QanelasSoft";
+  src: url("../../assets/fonts/QanelasSoft/QanelasSoft-Medium.woff") format('woff');
+  font-weight: 500;
+}
+@font-face {
+  font-family: "QanelasSoft";
+  src: url("../../assets/fonts/QanelasSoft/QanelasSoft-MediumItalic.woff") format('woff');
+  font-weight: 500;
+  font-style: italic;
+}
+@font-face {
+  font-family: "QanelasSoft";
+  src: url("../../assets/fonts/QanelasSoft/QanelasSoft-Regular.woff") format('woff');
+  font-weight: 400;
+}
+@font-face {
+  font-family: "QanelasSoft";
+  src: url("../../assets/fonts/QanelasSoft/QanelasSoft-RegularItalic.woff") format('woff');
+  font-weight: 400;
+  font-style: italic;
+}
+@font-face {
+  font-family: "QanelasSoft";
+  src: url("../../assets/fonts/QanelasSoft/QanelasSoft-Light.woff") format('woff');
+  font-weight: 300;
+}
+@font-face {
+  font-family: "QanelasSoft";
+  src: url("../../assets/fonts/QanelasSoft/QanelasSoft-LightItalic.woff") format('woff');
+  font-weight: 300;
+  font-style: italic;
+}
+@font-face {
+  font-family: "QanelasSoft";
+  src: url("../../assets/fonts/QanelasSoft/QanelasSoft-UltraLight.woff") format('woff');
+  font-weight: 200;
+}
+@font-face {
+  font-family: "QanelasSoft";
+  src: url("../../assets/fonts/QanelasSoft/QanelasSoft-UltraLightItalic.woff") format('woff');
+  font-weight: 200;
+  font-style: italic;
+}
+@font-face {
+  font-family: "QanelasSoft";
+  src: url("../../assets/fonts/QanelasSoft/QanelasSoft-Thin.woff") format('woff');
+  font-weight: 100;
+}
+@font-face {
+  font-family: "QanelasSoft";
+  src: url("../../assets/fonts/QanelasSoft/QanelasSoft-ThinItalic.woff") format('woff');
+  font-weight: 100;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'emojione';
+  src: url("../../assets/fonts/icomoon.eot?txg8vg");
+  src: url("../../assets/fonts/icomoon.eot?#iefixtxg8vg") format("embedded-opentype"), url("../../assets/fonts/icomoon.ttf?txg8vg") format("truetype"), url("../../assets/fonts/icomoon.woff?txg8vg") format("woff"), url("../../assets/fonts/icomoon.svg?txg8vg#emojione") format("svg");
+  font-weight: 500;
+  font-style: normal;
+}
+
+.btn-tone {
+  display: inline-block;
+  width: 14px;
+  height: 14px;
+  padding: 0;
+  margin: 0px 4px 0 4px;
+  border: 0;
+  vertical-align: middle;
+  border-radius: 100%;
+  outline: none;
+}
+.btn-tone.active {
+  width: 22px;
+  height: 22px;
+  margin: 0px 0;
+}
+.btn-tone.btn-tone-0 {
+  background-color: #ffcf3e;
+}
+.btn-tone.btn-tone-1 {
+  background-color: #fae3c5;
+}
+.btn-tone.btn-tone-2 {
+  background-color: #e2cfa5;
+}
+.btn-tone.btn-tone-2.active {
+  border-color: #e2cfa5;
+}
+.btn-tone.btn-tone-3 {
+  background-color: #daa478;
+}
+.btn-tone.btn-tone-3.active {
+  border-color: #daa478;
+}
+.btn-tone.btn-tone-4 {
+  background-color: #a78058;
+}
+.btn-tone.btn-tone-4.active {
+  border-color: #a78058;
+}
+.btn-tone.btn-tone-5 {
+  background-color: #5e4d43;
+}
+.btn-tone.btn-tone-5.active {
+  border-color: #5e4d43;
+}
+
+[class^="icon-"],
+[class*="icon-"] {
+  font-family: 'emojione';
+  speak: none;
+  font-style: normal;
+  font-weight: 500;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+
+
+  color: rgb(133, 131, 131);
+  transition: all ease-out 0.1s;
+}
+
+[class^="icon-"].active,
+[class*=" icon-"].active {
+  color: #9c2b9f;
+}
+
+[class^="icon-"]:hover,
+[class*=" icon-"]:hover {
+  color: #9c2b9f;
+}
+
+.icon-external-link:before {
+  content: "\77";
+}
+.icon-more:before {
+  content: "\6d";
+}
+.icon-people:before {
+  content: "\e907";
+}
+.icon-nature:before {
+  content: "\e904";
+}
+.icon-objects:before {
+  content: "\e905";
+}
+.icon-food:before,
+.icon-foods:before,
+.icon-food_drink:before {
+  content: "\e903";
+}
+.icon-activity:before {
+  content: "\e900";
+}
+.icon-travel_places:before {
+  content: "\e90a";
+}
+.icon-travel:before {
+  content: "\e90a";
+}
+.icon-flags:before {
+  content: "\e902";
+}
+.icon-unicode9:before {
+  content: "\e999";
+}
+.icon-objects_symbols:before {
+  content: "\e905";
+}
+.icon-symbols:before {
+  content: "\e909";
+}
+.icon-angle-right:before {
+  content: "\3e";
+}
+.icon-angle-down:before {
+  content: "\56";
+}
+.icon-unchecked:before {
+  content: "\60";
+}
+.icon-checked:before {
+  content: "\7e";
+}
+.icon-checkmark:before {
+  content: "\43";
+}
+.icon-edit:before {
+  content: "\45";
+}
+.icon-recent:before {
+  content: "\e908";
+}
+.icon-diversity:before {
+  content: "\e904";
+}
+.icon-comments:before {
+  content: "\22";
+}
+.icon-zoom-in:before {
+  content: "\2b";
+}
+.icon-zoom-out:before {
+  content: "\2d";
+}
+.icon-close:before {
+  content: "\78";
+}
+.icon-apple:before {
+  content: "\61";
+}
+.icon-checkmark2:before {
+  content: "\e372";
+}
+.icon-swirl:before {
+  content: "\65";
+}
+.icon-search:before {
+  content: "\73";
+}
+
+html {
+  font-family: sans-serif; /* 1 */
+  -ms-text-size-adjust: 100%; /* 2 */
+  -webkit-text-size-adjust: 100%; /* 2 */
+}
+
+body {
+  /*min-width: 490px;*/
+  min-width: 490px;
+  height: 515px;
+  margin: 0 !important;
+  padding: 0;
+  border-radius: 5px;
+  display: block;
+
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  background: #fff;
+
+  font-family: 'QanelasSoft', serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+
+  position: relative;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+#panel_svg_icon {
+  filter: invert(100%) sepia(0%) saturate(0%) hue-rotate(114deg) brightness(105%) contrast(101%);
+
+  transition: all ease-out 0.1s;
+}
+
+#panel_svg_icon:hover {
+  filter: invert(33%) sepia(26%) saturate(4581%) hue-rotate(274deg) brightness(92%) contrast(95%);
+}

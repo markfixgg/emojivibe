@@ -1,0 +1,69 @@
+.header {
+    display: flex;
+    width: 100%;
+    height: 50px;
+    background-color: #4a154b;
+    background-image: url(../../../../assets/img/bg.png);
+    user-select: none;
+    position: sticky;
+    top: 0;
+    z-index: 1;
+}
+
+.header .logo {
+    color: white;
+    cursor: pointer;
+}
+
+.header .logo img {
+    -webkit-user-drag: none;
+
+    width: 25px;
+    height: 25px;
+}
+
+.header .buttons {
+    position: absolute;
+    right: 2%;
+    top: 25%;
+}
+
+.header .buttons button {
+    width: 22px;
+    height: 22px;
+
+    background-size: 22px 22px;
+    background-repeat: no-repeat;
+    background-position: center center;
+
+    background-color: #4a154b;
+
+    border: none;
+
+    margin-right: 13px;
+    transition: all ease-out 0.1s;
+}
+
+.header .buttons .expand {
+    background-image: url(../../../../assets/svg/expand.svg);
+}
+
+.header .buttons .expand:hover {
+    background-image: url(../../../../assets/svg/expand-hover.svg);
+}
+
+.header .buttons .search {
+    background-image: url(../../../../assets/svg/search.svg);
+}
+
+.header .buttons .search:hover {
+    background-image: url(../../../../assets/svg/search-hover.svg);
+}
+
+.header .buttons .gear {
+    background-image: url(../../../../assets/svg/gear.svg);
+}
+
+.header .buttons .gear:hover {
+    background-image: url(../../../../assets/svg/gear-hover.svg);
+}

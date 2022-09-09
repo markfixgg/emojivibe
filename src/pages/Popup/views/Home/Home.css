@@ -1,0 +1,53 @@
+.emoji_list_container {
+    height: calc(100vh - 96px - 76px);
+}
+
+.preview-text {
+    color: #96a1a9;
+    font-size: 13px;
+    margin: -2px 0px 9px 0px;
+    height: 13px;
+    font-weight: 500;
+}
+
+.output_clipboard {
+    width: calc(100vw - 130px) !important;
+
+    height: 36px;
+    padding: 6px;
+    background: white;
+    border-radius: 3px;
+}
+
+.output_clipboard .clipboard_preview {
+    width: calc(100vw - 200px) !important;
+    display: flex;
+    overflow: hidden;
+}
+
+.output_clipboard span:after {
+    font-size: 32px;
+    cursor: pointer;
+    display: inline-block;
+    content: "\00d7"; /* This will render the 'X' */
+}
+
+.output_clipboard span:hover {
+    color: #969696;
+}
+
+.search_input {
+    font-family: QanelasSoft;
+    font-size: 14px;
+
+    font-weight: bold;
+
+    text-indent: 10px;
+
+    outline: none;
+    border: 1px solid #b2b2b2;
+    width: calc(100vw - 190px) !important;
+
+    height: 34px;
+    border-radius: 2px;
+}
